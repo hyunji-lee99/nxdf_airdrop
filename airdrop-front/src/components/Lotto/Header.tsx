@@ -63,13 +63,15 @@ function Header() {
         </LogoDiv>
       </Link>
       <MenuDiv>
+        <Link to="Buyers" spy={true} smooth={true} offset={-80}>
+          <MenuSpan>Ticket Buyers</MenuSpan>
+        </Link>
         <Link to="About" spy={true} smooth={true} offset={-80}>
           <MenuSpan>About us</MenuSpan>
         </Link>
-        <Link to="Calculator" spy={true} smooth={true} offset={-80}>
-        <MenuSpan>Calculator</MenuSpan>
+        <Link to="winners" spy={true} smooth={true} offset={-80}>
+          <MenuSpan>Winners</MenuSpan>
         </Link>
-        <MenuSpan>Winners</MenuSpan>
       </MenuDiv>
       <NextDraw>Next Draw Saturday 2:00 PM UTC</NextDraw>
     </HeaderNav>

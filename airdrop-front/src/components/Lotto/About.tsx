@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Lotto from '../../routes/Lotto';
 import './css/MainCenter/font.css';
 
 const AboutDiv=styled.div`
@@ -8,7 +7,7 @@ const AboutDiv=styled.div`
   height:100%;
   widht:100%;
   padding-top: 60px;
-  background-color:#524880; 
+  background-color:#453C70;
 `
 const Welcome=styled.h1`
   font-size:3em;
@@ -35,7 +34,6 @@ const LottoInfoDiv=styled.div`
   font-weight:700;
   margin-right:25px;
 `
-
 const LottoInfoImg=styled.img`
   margin-top:15px;
 `
@@ -77,9 +75,11 @@ const TextDiv=styled.div`
   display:flex;
 `
 const Img=styled.img`
-  margin-left:120px;
   object-fit:contain;
+  width:400px;
+  margin-left:100px;
 `
+
 function About() {
   return (
     <AboutDiv id="About">
@@ -108,7 +108,7 @@ function About() {
           <Text><Numbering>5.</Numbering>Wait for your prize to get sent to your wallet</Text>
           <Text><Numbering>6.</Numbering>Repeat</Text>
           </div>
-          <Img src='/img/icon-nxdf@2x.png'></Img>
+          <Img src='/img/LottoImage.gif'></Img>
         </TextDiv>
       </BottomDiv>
       </div>
